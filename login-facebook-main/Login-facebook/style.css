@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(224, 223, 223, 0.678);
+    height: 100vh;
+  
+}
+
+.logo h1{
+    color:  #4169e1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.logo p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7em;
+    color: black;
+    line-height: 35px;
+    padding-top: 13px;
+}
+
+.login{
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.26);
+    height: 350px;
+    width: 400px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0 150px;
+}
+
+.login input{
+outline-color: #7998f3;
+width: 350px;
+height: 50px;
+border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.144);
+margin-top: 17px;
+}
+
+.login input[type=text]{
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+
+.login input[type=submit]{
+    background:#4169e1 ;
+    cursor: pointer;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.senha a{
+    text-decoration: none;
+    color: #4169e1;
+    font-size: 17px;
+    position: absolute;
+    left: 68%;
+    top: 56%;
+}
+
+.senha a:hover{
+    border-bottom: 1px solid #4169e1;
+}
+
+.conta a{
+    text-decoration: none;
+    color: white;
+    background: rgb(6, 173, 6);
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   position: absolute;
+   left: 67%;
+   top: 64%;
+
+ 
+}
+
+.linha{
+border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+width: 350px;
+height: 15px;
+left: 61%;
+top: 59%;
+position: absolute;
+}
+
+.text{
+    position: absolute;
+    left: 60.2%;
+    top: 80%;
+    display: flex;
+    
+}
+.text p{
+    padding-left: 5px;
+}
+
+.text  p span{
+    position: absolute;
+    left: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.text a{
+    text-decoration: none;
+    color: black;
+}
+
+.text a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+.janela-modal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.342);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.modal{
+    height: 250px;
+    width: 600px;
+    width: 60%;
+    background: white;
+    position: absolute;
+    border-radius: 30px;
+  
+
+}
+
+.fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.janela-modal.abrir{
+display: flex;
+}
